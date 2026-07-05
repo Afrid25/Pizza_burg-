@@ -2,6 +2,10 @@ body{
     background-color: #121212;
     color: gold;
     margin: 0;
+    background-image: url(./media/index-bg-image.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
 }
 
 *{
@@ -17,10 +21,9 @@ body{
 }
 
 nav{
-    background-color:rgb(30, 30, 29);
+    /* background-color:rgb(30, 30, 29); */
     padding: 20px;
-    border: 1px solid ;
-    box-sizing: border-box;
+    border: 1px solid;
 }
 
 nav ul{
@@ -34,7 +37,9 @@ nav ul{
 nav ul li{
     
     border: 1px solid rgb(255, 255, 255);
-    border-radius: 10px;
+    border-radius: 9px;
+    background-color: red;
+    color: white;
     
 }
 nav ul li:hover{
@@ -58,7 +63,7 @@ nav ul li a{
     margin: 20px;
     padding: 20px;
     border: 1px solid gold;
-    box-shadow: 4px 4px 06px rgb(102, 71, 71);
+    box-shadow: 4px 4px 06px rgb(1, 0, 0);
     
 }
 
@@ -73,16 +78,17 @@ nav ul li a{
 }
 
 .grab-atten{
+    background-image: url('./media/hero_image.jpeg');
     background-color: rgb(61, 61, 63);
     text-align: center;
     color:rgb(255, 251, 0);
-    margin:auto;
+    margin:0 auto;
     padding: 20px;
     font-size: 20px;
     width: 400px;
     border-left: 10px solid white;
     border-right: 10px solid white;
-    box-shadow: 25px 15px 40px rgb(217, 105, 105);
+    box-shadow: 25px 15px 40px rgb(76, 2, 2);
 }
 button{
     background-color:rgb(231, 8, 8);
